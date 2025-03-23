@@ -3,7 +3,7 @@ package operator;
 /**
  * Operator3
  *
- * 연산자 우선순위
+ * 연산자 우선순위 1
  *
  * @author Kwon Bomi / GitHub: aSpring712
  * @since 2025-03-23

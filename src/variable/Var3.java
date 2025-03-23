@@ -3,6 +3,8 @@ package variable;
 /**
  * Var3
  *
+ * 변수 값 변경
+ *
  * @author Kwon Bomi / GitHub: aSpring712
  * @since 2025-03-23
  * @version 1.0

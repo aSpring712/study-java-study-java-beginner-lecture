@@ -3,6 +3,8 @@ package variable;
 /**
  * Var2
  *
+ * 변수 시작
+ *
  * @author Kwon Bomi / GitHub: aSpring712
  * @since 2025-03-23
  * @version 1.0

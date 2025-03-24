@@ -3,6 +3,8 @@ package operator;
 /**
  * Comp1
  *
+ * 비교 연산자
+ *
  * @author Kwon Bomi / GitHub: aSpring712
  * @since 2025-03-23
  * @version 1.0

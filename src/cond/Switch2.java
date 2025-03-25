@@ -3,7 +3,7 @@ package cond;
 /**
  * Switch2
  *
- * Switch문
+ * switch문
  *
  * @author Kwon Bomi / GitHub: aSpring712
  * @since 2025-03-25
@@ -46,6 +46,7 @@ public class Switch2 {
 				break;
 			default:
 				coupon = 500;
+				break; // default는 마지막에 실행되는 코드 블록이기 때문에, 논리적으로 그 아래 실행할 코드가 없다면 break;가 없어도 동작에는 문제가 없으나 가독성과 유지보수를 위해 명시적으로 추가하는 것이 좋음.
 		}
 		System.out.println("발급받은 쿠폰 " + coupon);
 	}

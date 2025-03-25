@@ -1,7 +1,7 @@
 package cond.quiz;
 
 /**
- * MovieRateEx
+ * Movie Rate Ex
  *
  * Q. 평점에 따른 영화 추천하기
  *

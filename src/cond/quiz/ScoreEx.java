@@ -1,7 +1,7 @@
 package cond.quiz;
 
 /**
- * ScoreEx
+ * Score Ex
  *
  * Q. 학점 계산하기
  *

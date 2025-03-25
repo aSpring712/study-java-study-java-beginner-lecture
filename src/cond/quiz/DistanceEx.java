@@ -1,7 +1,7 @@
 package cond.quiz;
 
 /**
- * DistanceEx
+ * Distance Ex
  *
  * Q. 거리에 따른 운송 수단 선택하기
  *

@@ -1,7 +1,7 @@
 package cond.quiz;
 
 /**
- * ExchangeRateEx
+ * Exchange Rate Ex
  *
  * Q. 환율 계산하기
  *

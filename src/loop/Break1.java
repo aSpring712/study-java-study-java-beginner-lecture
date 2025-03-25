@@ -3,6 +3,8 @@ package loop;
 /**
  * Break1
  *
+ * while문과 break
+ *
  * @author Kwon Bomi / GitHub: aSpring712
  * @since 2025-03-25
  * @version 1.0

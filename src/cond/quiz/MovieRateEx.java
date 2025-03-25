@@ -1,0 +1,72 @@
+package cond.quiz;
+
+/**
+ * MovieRateEx
+ *
+ * Q. 평점에 따른 영화 추천하기
+ *
+ * @author Kwon Bomi / GitHub: aSpring712
+ * @since 2025-03-25
+ * @version 1.0
+ */
+public class MovieRateEx {
+
+	/*
+	* Q. 평점에 따른 영화 추천하기
+	* 요청한 평점 이상의 영화를 찾아서 추천하는 프로그램을 작성하자.
+	* - 어바웃타임 - 평점9
+	* - 토이 스토리 - 평점8
+	* - 고질라 - 평점7
+	*
+	* 평점 변수는 double rating을 사용하세요. if문을 활용해서 문제를 풀자.
+	*
+	* 출력 예시
+	* rating: 9
+	* 출력:
+	* '어바웃타임'을 추천합니다.
+	*
+	* rating: 8
+	* 출력:
+	* '어바웃 타임'을 추천합니다.
+	* '토이 스토리'를 추천합니다.
+	*
+	* rating: 7.1
+	* 출력:
+	* '어바웃타임'을 추천합니다.
+	* '토이 스토리'를 추천합니다.
+	*
+	* rating: 7
+	* 출력:
+	* '어바웃타임'을 추천합니다.
+	* '토이 스토리'를 추천합니다.
+	* '고질라'를 추천합니다.
+	* */
+
+	public static void main(String[] args) {
+
+		double rating = 7.1;
+
+		if (rating <= 9) {
+			System.out.println("'어바웃타임'을 추천합니다.");
+		}
+
+		if (rating <= 8) {
+			System.out.println("'토이 스토리'를 추천합니다.");
+		}
+
+		if (rating <= 7) {
+			System.out.println("'코질라'를 추천합니다.");
+		}
+
+//		if (rating <= 7) {
+//			System.out.println("'어바웃타임'을 추천합니다.");
+//			System.out.println("'토이 스토리'를 추천합니다.");
+//			System.out.println("'고질라'를 추천합니다.");
+//		} else if (rating <= 8) {
+//			System.out.println("'어바웃타임'을 추천합니다.");
+//			System.out.println("'토이 스토리'를 추천합니다.");
+//		} else {
+//			System.out.println("'어바웃타임'을 추천합니다.");
+//		}
+	}
+}
